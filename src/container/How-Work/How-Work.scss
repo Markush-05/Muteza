@@ -1,0 +1,56 @@
+.how-work{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 var(--padding-side);
+    width: 100%;
+    max-height: 75vw;
+    min-height: 65vw;
+
+    &__sm{
+        min-width: 200px;
+        width: 25%;     
+        margin: auto 0;  
+
+    }
+    &__bg{
+        margin-bottom: 20vh;
+
+    }
+}
+
+.inview{
+    &__title{
+        margin: 0;
+    }
+    &__img{
+        overflow: hidden;
+        
+        img{
+            width: 100%;
+            margin-top: 50px;
+        }
+    }
+}
+
+
+.how-steps{
+    padding-left: 7vw;
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        li{
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            padding: 6vh 0;
+            border-bottom: var(--border);
+        }
+    }
+    p{
+        width: 30%;
+    }
+
+}

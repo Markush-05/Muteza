@@ -1,0 +1,124 @@
+@font-face{
+  font-family: elgoc;
+  src: url("./fonts/ElgocMedium.woff")
+}
+
+@font-face{
+  font-family: ttnorms;
+  src: url("./fonts/TTNorms-Regular.otf")
+}
+
+
+a{
+  font-family: ttnorms;
+}
+
+
+.o-row{
+  overflow: hidden;
+  white-space: nowrap;
+  width: max-content;
+  line-height: 80%;
+  display: block;
+}
+.u-shift {
+  transform: translate(20%, 0);
+}
+
+h1, h2, h3, h3{
+  
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: elgoc;
+  line-height: 100%;
+  color: rgb(27, 38, 44);
+}
+
+h2{
+  font-size: 4.5vw;
+}
+h3{
+  font-size: 2.8vw;
+}
+
+
+p {
+  font-size: 14px;
+  font-weight: normal;
+  color: rgb(79, 79, 79);
+  line-height: 126%;
+}
+
+
+/*Animations*/
+
+.o-row{
+  overflow: hidden;
+  white-space: nowrap;
+  width: max-content;
+  width: -webkit-max-content;
+  width: -ms-max-content;
+  line-height: 80%;
+  display: block;
+}
+
+.o-row > span{
+  display: block;
+  transition: .8s cubic-bezier(.215,.61,.355,1);
+  transition-delay: .2s;
+  transform: translate(0, 100%);
+}
+
+.detect .o-row:first-child span{
+  transition-delay: .1s;
+}
+
+.detect .o-row:nth-child(2) span{
+  transition-delay: .2s;
+}
+
+.detect .o-row:nth-child(3) span{
+  transition-delay: .3s;
+}
+
+.detect .o-row:nth-child(4) span{
+  transition-delay: .4s;
+}
+
+.detect .o-row>span{
+  transform: translate(0, 0);
+}
+
+.img-detect{
+  overflow: hidden;
+}
+
+.img-detect img{
+  transform: scale(1.4, 1.4);
+  transition: transform .6s cubic-bezier(.215,.61,.355,1);
+  transition-delay: .1s;
+}
+
+.img-detect.is-inview img{
+  transform: scale(1, 1);
+}
+
+
+
+
+
+::-webkit-scrollbar{
+  width: 7px;
+  background-color: var(--bg-color);
+
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--accent-color);
+}
+
+::-moz-selection, ::selection, ::-webkit-selection{
+  color: inherit;
+  background: transparent;
+
+}

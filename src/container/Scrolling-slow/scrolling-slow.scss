@@ -1,0 +1,67 @@
+.scrolling{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    // pointer-events: none;
+    &__scroll{
+        max-width: 1920px; 
+        margin: auto; 
+        width: 100%;
+        padding: 7vh 0;
+        // padding-bottom: 0;
+        
+    }
+
+    nav{
+        position: fixed;
+        z-index: 100;
+    }
+
+    &__scrollbar{
+        z-index: 500;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 11px;
+        height: 100vh;
+        transform-origin: center right;
+        transition: transform .3s,opacity .3s;
+        opacity: 1;
+        &:hover{
+            transform: scaleX(1.45);
+            opacity: 1;
+        }
+       
+
+        &--thumb{
+            z-index: 500;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #ffa372;
+            opacity: 1;
+            width: 7px;
+            margin: 2px;
+            cursor: -webkit-grab;
+            cursor: grab;
+
+            height: 98.7832px;
+           
+
+        }
+    }
+
+    
+
+   
+}
+
+
+
+
+
+
+
