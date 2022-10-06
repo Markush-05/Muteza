@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a3bfb6f6.css",
+    "main.js": "/static/js/main.a15a9b8a.js",
+    "static/media/ing.jpg": "/static/media/ing.f996172d30e8201d3f88.jpg",
+    "static/media/banner.jpg": "/static/media/banner.97d7743c8fc782350786.jpg",
+    "static/media/how3.jpg": "/static/media/how3.eff7acb06a1c88f29de2.jpg",
+    "static/media/leaf.png": "/static/media/leaf.06ec8c7e08fad51beaf7.png",
+    "static/media/TTNorms-Regular.otf": "/static/media/TTNorms-Regular.be9ab5334998e415ea05.otf",
+    "static/media/footer.jpg": "/static/media/footer.10998ee453e40afed87e.jpg",
+    "static/media/info.jpg": "/static/media/info.9a3ef9032d506b6021ae.jpg",
+    "static/media/clock.png": "/static/media/clock.b87293d23a1eae4cd16c.png",
+    "static/media/review2.jpg": "/static/media/review2.a5ec1374390a9a751add.jpg",
+    "static/media/serum.png": "/static/media/serum.b996b1a1bfbe57e2449a.png",
+    "static/media/review1.jpg": "/static/media/review1.260875c18b62f9ac239c.jpg",
+    "static/media/peelpet.png": "/static/media/peelpet.d853cefcabff8ccdab3e.png",
+    "static/media/dropper.png": "/static/media/dropper.03c91e6996c9da6318ba.png",
+    "static/media/flopet.png": "/static/media/flopet.33adf2b045af3516f604.png",
+    "static/media/ElgocMedium.woff": "/static/media/ElgocMedium.f2aaad299158a21169f9.woff",
+    "static/media/lineflower.png": "/static/media/lineflower.f3759205b3c9bd94b86c.png",
+    "static/media/glut.svg": "/static/media/glut.dbdd033a0d7c5300a00efaa5c19093f7.svg",
+    "static/media/frag.svg": "/static/media/frag.b85c2392580599bcc4a24220c0493453.svg",
+    "static/media/sulp.svg": "/static/media/sulp.448a0a9fc998f39ca7352707ab668f2b.svg",
+    "index.html": "/index.html",
+    "static/media/crue.svg": "/static/media/crue.c7d157a061901a76e941e708cf5a5797.svg",
+    "main.a3bfb6f6.css.map": "/static/css/main.a3bfb6f6.css.map",
+    "main.a15a9b8a.js.map": "/static/js/main.a15a9b8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3bfb6f6.css",
+    "static/js/main.a15a9b8a.js"
+  ]
+}
